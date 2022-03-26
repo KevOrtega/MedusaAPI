@@ -1,0 +1,30 @@
+###
+POST http://localhost:4000/clothes
+Content-Type: application/json
+
+{
+    "title": "From Death To Life",
+    "description": "remera manga corta negra 'From Death To Life'",
+    "price": 2500
+}
+
+###
+
+GET http://localhost:4000/clothes
+
+###
+
+GET http://localhost:4000/clothes/61e759d46d4ccbc71082cfe9
+
+###
+
+PUT http://localhost:4000/clothes/61e8447834f955e12e0e502e
+Content-Type: application/json
+
+{
+    "price": 2500
+}
+
+###
+
+DELETE http://localhost:4000/clothes/61e8447834f955e12e0e502e
